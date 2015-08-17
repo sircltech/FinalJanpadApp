@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, target-densitydpi=medium-dpi, user-scalable=0" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css" />
+         <link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.5.css" />
+        <link rel="stylesheet" type="text/css" href="css/jatin.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/jatin.css" />
+        <script src="js/jquery.min.js" type="text/javascript"></script>
+        <script src="css/jquery.mobile-1.4.5.min.js" type="text/javascript"></script>
+        <title>Sirsa App</title>
+    </head>
+    <body>
+        <div data-role="page" id="four" data-theme='a'>
+        <div data-role="header" data-id="my-header" data-position="fixed">
+           <a href="#menu" class="ui-btn ui-btn-icon-left ui-icon-bars ui-btn-icon-notext ui-corner-all"></a>
+           <h1 style="color:#ffffff;font-size:18px">सिरसा जनपद</h1>
+           <a rel="external" href="home.html" class="ui-btn ui-btn-icon-right ui-icon-refresh ui-btn-icon-notext ui-corner-all"></a>
+           <div data-role="navbar">
+		    <ul>
+		      <li><a rel="external" href="home.html">Home</a></li>
+		      <li><a rel="external" href="contact.html">Contact</a></li>
+		    </ul>
+		  </div>
+	    </div>
+        <div data-role="panel" data-position="left" id="menu" data-theme="a">
+		 <ul data-role="listview"  data-inset="true">
+    <li><a href="home.html">Home</a></li>
+    <li><a href="about.html">About Us</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+    
+  </ul>
+        </div>
+        <div data-role="main" class="ui-content">
+        <div>&nbsp;</div>
+        <div>&nbsp;</div>
+        <div>
+        	<h3>Waiting for you queries, feedback.</h3>
+        </div>
+        <div>
+        	<hr />
+        	<h3>&#9990; +91 99155-67305</h4>
+        	<hr />
+        	<h3><a href="mailto:contact@janpad.in?subject=feedback">contact@janpad.in</a></h3>
+        </div>
+       </div>
+        <script src="js/myJquery.js" type="text/javascript"></script>
+        </div>
+        <div data-role="page" id="pagetwo" data-theme='a'>
+        <div data-role="header" data-position="fixed">
+           <a href="#pageone" class="ui-btn ui-btn-icon-left ui-icon-back ui-btn-icon-notext ui-corner-all"></a>
+           <h1 style="color:#ffffff;font-size:18px">Sub Cat</h1>
+         </div>
+        <div data-role="panel" data-position="left" id="menu" data-theme="b">
+			<div id="sub">
+        	</div>
+        	</div>
+        <div data-role="main" class="ui-content">
+           </div>
+         <div id="footer" data-role="footer" data-id="footer1" data-position="fixed" data-tap-toggle="false">
+                   &copy; 2015 सिरसा जनपद  All Rights Reserved
+                </div>
+        </div>
+        
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript">
+        	     app.initialize();
+        </script>
+        <script type="text/javascript">
+           $(document).on('pageshow','#pageone', function(){
+        		$('.bxslider').bxSlider({
+        			auto:true,
+				  onSliderLoad: function(){
+                          $('.slideshow').css('visibility', 'visible');
+                     }    
+				});
+	      });
+        </script>
+      
+    </body>
+</html>

@@ -1,0 +1,33 @@
+html { font-size: 62.5%;font-weight: normal; } 
+body { font-size: 1em; }
+
+@media (max-width: 300px) { html { font-size: 70%; } }
+
+@media (min-width: 500px) { html { font-size: 80%; } }
+
+@media (min-width: 700px) { html { font-size: 120%; } }
+
+@media (min-width: 1200px) { html { font-size: 200%; } }
+#owl-demo .item{
+  background: #3fbf79;
+  padding: 30px 0px;
+  margin: 10px;
+  color: #FFF;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-align: center;
+}
+.customNavigation{
+  text-align: center;
+}
+
+.customNavigation a
+{
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
