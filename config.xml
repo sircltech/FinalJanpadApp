@@ -2,7 +2,7 @@
 <widget id="com.app.janpad" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Janpad Application</name>
     <description>
-        Welcome to Janpad Allication. It is Directory Listing App of your City.
+        Welcome to Janpad Application. It is Directory Listing App of your City.
     </description>
     <author email="support@janpad.in" href="http://janpad.in">
         PhoneGap Team
